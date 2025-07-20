@@ -3,6 +3,7 @@ import subprocess
 import getpass
 import ctypes
 import time
+import msvcrt
 
 def is_admin():
     """Verifica se o script está sendo executado como Administrador LOCAL"""
@@ -109,7 +110,7 @@ def menu_principal():
         
 
 if __name__ == "__main__":
-    import msvcrt
+    
     menu_principal()
 
 
