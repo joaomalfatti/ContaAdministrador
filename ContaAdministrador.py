@@ -32,10 +32,10 @@ def reativar_admin_local():
         print("="*50)
         
         while True:
-            senha = getpass.getpass(f"\n Digite a nova senha para {nome_usuario} (Digite 'S' e presione Enter para retornar ao menu.): ")
+            senha = getpass.getpass(f"\n Digite a nova senha para {nome_usuario} (Digite '0' e presione Enter para retornar ao menu.): ")
     
             # Opção para voltar ao menu principal
-            if senha.upper() == 'S':
+            if senha.upper() == '0':
                 print("\n Retornando ao menu principal...")
                 return True  
             
