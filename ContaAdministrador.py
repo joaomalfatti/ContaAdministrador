@@ -65,7 +65,7 @@ def menu_principal():
     while True:
         os.system('cls')
         print("="*50)
-        print("REATIVADOR DE CONTA ADMINISTRADOR LOCAL".center(50))
+        print("REATIVADOR DE CONTA ADMINISTRADOR LOCAL === V1.1".center(50))
         print("="*50)
         print("\n Este script reativa a conta 'Administrador' APENAS")
         print("neste computador. Requer privilégios de Administrador.")
